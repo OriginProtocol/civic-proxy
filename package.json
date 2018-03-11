@@ -5,15 +5,14 @@
   "author": "Brad Davis <hello@imbrad.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "dev": "ENV=dev nodemon server.js"
   },
   "dependencies": {
+    "civic-sip-api": "^1.0.1",
+    "dotenv": "^5.0.1",
     "express": "^4.16.2"
   },
   "devDependencies": {
     "nodemon": "^1.17.1"
-  },
-  "scripts": {
-    "dev": "nodemon server.js"
   }
 }
