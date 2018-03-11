@@ -1,0 +1,19 @@
+{
+  "name": "civic-proxy",
+  "version": "0.1.0",
+  "description": "Origin Protocol Node Proxy Server",
+  "author": "Brad Davis <hello@imbrad.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
