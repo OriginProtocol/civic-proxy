@@ -1,0 +1,6 @@
+#IDE
+.idea/
+node_modules
+
+#ignore env config file
+.env

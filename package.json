@@ -1,0 +1,19 @@
+{
+  "name": "civic-proxy",
+  "version": "0.1.0",
+  "description": "Origin Protocol Node Proxy Server",
+  "author": "Brad Davis <hello@imbrad.com>",
+  "main": "server.js",
+  "scripts": {
+    "dev": "ENV=dev nodemon server.js"
+  },
+  "dependencies": {
+    "civic-sip-api": "^1.0.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "root-require": "^0.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
