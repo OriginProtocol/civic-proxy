@@ -13,6 +13,7 @@ Description: Handles the decrypting of user information being returned from Civi
   SERVER_HOST=0.0.0.0
   SERVER_PORT=8080
   
+  CIVIC_APP_ID=your_id
   CIVIC_PRIVATE_KEY=your_key
   CIVIC_PUBLIC_KEY=your_key
   CIVIC_SECRET=your_secret
