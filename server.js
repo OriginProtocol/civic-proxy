@@ -11,12 +11,17 @@ const HOST = process.env.SERVER_HOST|| '0.0.0.0';
 
 // App
 const app = express();
-app.get('/', (req, res) => {
-    res.send('civic-proxy\n');
-});
 
 
+var routes = {
+    civic: require( './lib/routes/civic' ),
+    test: require( './lib/routes/test' )
+};
 
+
+// Routes
+app.use( '/civic', routes.civic );
+app.use( '/',  routes.test  );
 
 
 
