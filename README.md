@@ -37,5 +37,5 @@ Description: Handles the decrypting of user information being returned from Civi
  
  Testing the container response on local machine
  
- 1) Curl the docker container from localhost `curl -i localhost:8080
+ 1) Curl the docker container from localhost `curl -i localhost:8080`
   
